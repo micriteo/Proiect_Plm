@@ -1,0 +1,140 @@
+.header_box {
+	    grid-column: 1;
+    grid-row: 1;
+    margin-top: 0;
+    background-color: #0e797a;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 326px;
+}
+
+body
+{
+	width: 1024px;
+}
+
+.header_image{
+	 
+	    grid-row: 1;
+		grid-column: 1;
+		height: 200px;
+		width: 475px;
+		margin-top: -180px;
+		padding: 0px;
+		margin-left: 23px;
+}
+
+
+h1 {																		/* have no idea wtf is this just copied from the html assigments*/
+        font-family: 'Noto Sans', Noto Serif;
+    color: white;
+    font-size: 20px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 10px;
+    white-space: nowrap;				/* this saved my ass . I didn't know there was this shit to make the white space go away holy fuck*/
+}
+
+.announcements {								/*I've created a div for each name in order to center it propperly*/
+			    margin-right: 23%;
+				margin-top: 36px;
+				float: right;
+	}
+	
+.robotinfo {
+		margin-left: 10%;
+		margin-right: -29%;
+		margin-top: 37px;
+		float: right;
+	}
+
+.staff{
+	margin-left: 9%;
+    margin-right: -2%;
+    margin-top: 95px;
+    float: right;
+}
+	
+
+.contact{
+	margin-left: 13%;
+    margin-right: -36%;
+    margin-top: 95px;
+    float: right;
+	}
+
+.grid_item1{
+	  grid-column: 1;
+    grid-row: 2;
+    width: 247px;
+    height: 380px;
+    margin-top: 200px;
+    margin-left: 85px;
+    background-color: grey;
+    padding: 0px;
+}
+
+
+.grid_item2{
+	grid-column: 2;
+    grid-row: 2;
+    width: 247px;
+    height: 380px;
+    margin-top: -398px;
+    margin-left: 362px;
+    background-color: grey;
+    padding: 0px;
+}
+
+
+.grid_item3{
+	    grid-column: 2;
+    grid-row: 2;
+    width: 247px;
+    height: 380px;
+    margin-top: -399px;
+    margin-left: 640px;
+    background-color: grey;
+    padding: 0px;
+}
+
+.grid_item4{
+	grid-column: 3;
+    grid-row: 2;
+    width: 247px;
+    height: 380px;
+    margin-top: -399px;
+    margin-left: 917px;
+    background-color: grey;
+    padding: 0px;
+}
+
+
+
+.grid_item5{
+	grid-column: 3;
+    grid-row: 2;
+    width: 247px;
+    height: 380px;
+    margin-top: -399px;
+    margin-left: 1194px;
+    background-color: grey;
+    padding: 0px;
+}
+
+#grid-container {													/*For the border of the site*/
+         display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    margin: auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
